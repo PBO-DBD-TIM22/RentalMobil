@@ -5,13 +5,13 @@ KAYLA VIRRLY (2209116011)
 NURUL VITA AZIZAH (2209116038)
 
 ## Daftar Isi
-## Daftar Isi
 - [Deskripsi Project](#deskripsi-project)
 - [Flowchart](#flowchart)
 - [ERD Logical](#erd-logical)
 - [ERD Relational](#erd-relational)
 - [Struktur Project](#struktur-project)
 - [Hierarki Kelas](#hierarki-kelas)
+- [Penjelasan Codingan](#penjelasan-codingan)
 - [Output & Alur Program](#output--alur-program)
   - [Halaman Utama Owner](#halaman-utama-owner)
     - [Login](#login)
@@ -26,7 +26,7 @@ NURUL VITA AZIZAH (2209116038)
   - [Halaman Utama Staff](#halaman-utama-staff)
     - [Login](#login)
     - [Halaman Utama Staff](#halaman-utama-staff)
-- [Penjelasan Codingan](#Penjelasan Codingan)
+
 
 
 ## Deskripsi Project
