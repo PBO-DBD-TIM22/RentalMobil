@@ -13,6 +13,7 @@ NURUL VITA AZIZAH (2209116038)
 Aplikasi Pengelolaan Data Rental Mobil ini adalah sebuah aplikasi yang bertujuan untuk membantu perusahaan rental mobil dalam mengelola dan melacak data terkait pelanggan, staf, pemilik, kendaraan, peminjaman, dan transaksi. Aplikasi ini memiliki tiga package utama, yaitu `image`, `database`, dan `menu.rental`.
 
 ## Flowchart
+![flowchart pa pbo](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/cd45e087-673e-4054-87ca-8fef8cbef9dc)
 
 
 ## ERD Logical
