@@ -77,6 +77,7 @@ ERD Relasional (Relational Entity-Relationship Diagram) adalah sebuah perangkat 
 ![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/31e4eb03-44db-494d-8f72-c0fc4dd2af8d)
 
 ## Penjelasan Codingan
+### LOGIN
 Ini adalah bagian dari sebuah program Java yang mengimplementasikan proses login untuk aplikasi yang terkait dengan manajemen akun pengguna.
 
 ```java
@@ -126,6 +127,38 @@ System.out.println("["+ username + "]"+ "[" + password + "]"+ "[" + role +"]");
 Mencetak informasi username, password, dan role ke konsol.
 
 Selain itu, ada juga komentar yang memberikan petunjuk tambahan tentang apa yang dilakukan dalam blok kode tertentu. Ini adalah kode yang digunakan untuk mengimplementasikan logika dasar login dalam aplikasi Java, di mana pengguna akan memasukkan username, password, dan memilih peran sebelum mencoba untuk login. Jika login berhasil, aplikasi akan menampilkan tampilan yang sesuai berdasarkan peran pengguna. Jika login gagal, pesan kesalahan akan ditampilkan.
+
+### Entitas Mobil
+### Atribut
+- `ID_Mobil`: String, ID unik untuk setiap mobil.
+- `Merek`: String, merek atau produsen mobil.
+- `Tahun_Produksi`: String, tahun produksi mobil.
+- `Nomor_Polisi`: String, nomor polisi mobil.
+- `Harga_Sewa`: Integer, harga sewa mobil.
+- `Status`: String, status mobil (misalnya, tersedia atau disewa).
+- `NIK`: String, nomor identitas pengemudi mobil.
+
+### Metode
+
+#### 1. `findMobil`
+   - Digunakan untuk mencari data mobil dalam database berdasarkan kriteria tertentu seperti ID_Mobil, Merek, Tahun_Produksi, dan lainnya.
+   - Mengembalikan `true` jika pencarian berhasil dan `false` jika tidak.
+   
+#### 2. `createMobil`
+   - Mengizinkan penambahan data mobil baru ke dalam database.
+   - Mengembalikan `true` jika penambahan berhasil dan `false` jika tidak.
+
+#### 3. `updateMobil`
+   - Digunakan untuk memperbarui data mobil yang sudah ada dalam database berdasarkan ID_Mobil.
+   - Mengembalikan `true` jika pembaruan berhasil dan `false` jika tidak.
+
+#### 4. `deleteMobil`
+   - Mengizinkan penghapusan data mobil dari database berdasarkan ID_Mobil.
+   - Mengembalikan `true` jika penghapusan berhasil dan `false` jika tidak.
+
+### Penggunaan
+
+Untuk menggunakan aplikasi ini, Anda dapat membuat objek dari kelas `Mobil` dan menggunakan metode yang sesuai untuk mengakses dan mengelola data mobil dalam database. Pastikan untuk memasukkan nilai-nilai yang sesuai ke dalam atribut kelas `Mobil` sebelum menjalankan metode pencarian, penambahan, pembaruan, atau penghapusan data.
 
 
 ## Output & Alur Program
