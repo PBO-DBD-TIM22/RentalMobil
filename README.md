@@ -1,82 +1,104 @@
 # Aplikasi Pengelolaan Data Rental Mobil
-### TIM 22
-KAYLA VIRRLY .N (22091160)
+### PROJECT-AKHIR-PBO-TIM-22
+KAYLA VIRRLY (2209116011)
 
 NURUL VITA AZIZAH (2209116038)
 
-## Deskripsi Project
-Aplikasi Pengelolaan Data Rental Mobil ini adalah sebuah proyek perangkat lunak yang bertujuan untuk membantu perusahaan rental mobil dalam mengelola dan melacak data terkait pelanggan, staf, pemilik, kendaraan, peminjaman, dan transaksi. Aplikasi ini memiliki tiga package utama, yaitu `image`, `database`, dan `menu.rental`.
-
-### Package `Database`
-Package `Database` adalah inti dari aplikasi ini, yang berisi 7 kelas utama untuk mengelola data dalam basis data aplikasi. Berikut adalah penjelasan singkat tentang masing-masing kelas:
-
-1. `Database`: Kelas ini bertanggung jawab untuk mengelola koneksi ke database dan operasi dasar seperti mengambil data.
-
-2. `User`: Kelas ini mengelola data pengguna aplikasi, termasuk informasi login dan hak akses.
-
-3. `Staff`: Kelas ini berfungsi untuk menyimpan dan mengelola informasi staf yang bekerja di perusahaan rental mobil.
-
-4. `Owner`: Kelas ini digunakan untuk menyimpan data pemilik perusahaan rental mobil.
-
-5. `Mobil`: Kelas ini mengatur informasi kendaraan yang tersedia untuk disewakan, termasuk merek, model, tahun, dan harga.
-
-6. `Peminjam`: Kelas ini mengelola data peminjam, seperti nama, alamat, dan kontak.
-
-7. `Transaksi`: Kelas ini digunakan untuk mencatat detail transaksi peminjaman mobil, termasuk tanggal peminjaman, tanggal pengembalian, harga, dan status peminjaman.
-
-### Package `menu.rental`
-Package `menu.rental` berisi berbagai kelas yang mengatur interaksi antara pengguna dan aplikasi. Beberapa kelas penting di dalamnya adalah:
-
-1. `Login`: Kelas ini bertanggung jawab untuk proses otentikasi pengguna, mengelola login, dan mengarahkan pengguna ke menu yang sesuai role setelah login berhasil.
-
-2. `Menu Owner`: Kelas ini digunakan oleh pemilik perusahaan rental mobil untuk mengakses dan mengelola data staf, mobil, dan transaksi.
-
-3. `Menu Staff`: Kelas ini digunakan oleh staf perusahaan rental mobil untuk mengakses dan mengelola data transaksi, pelanggan, dan kendaraan.
-
-## Cara Menggunakan Aplikasi
-1. Pastikan Anda memiliki Java Runtime Environment (JRE) terinstal di komputer Anda.
-2. Unduh dan ekstrak file aplikasi ke komputer Anda.
-3. Jalankan aplikasi dengan menjalankan kelas `Login`.
-4. Masukkan informasi login yang benar.
-5. Setelah login berhasil, Anda akan diarahkan ke menu yang sesuai dengan peran Anda (owner atau staf).
-6. Anda dapat mulai mengelola data perusahaan rental mobil melalui menu yang tersedia.
-
-## Alur Program
-
-1. `Login`: User diminta login terlebih dahulu sesuai dengan username, password dan role dari masing-masing akun jabatan.
-
-   ![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/df924097-33a2-47d2-8c47-02134df463f3)
-
-
-3. `Menu Tampilan Utama`: Setelah login, menu utama akan muncul sesuai dengan jabatan masing user.
-
-4. `Menu Utama Owner`: Pada menu utama owner, ada 4 menu yang dapat dipilih yaitu Staff, Mobil, Add peminjam
-
-5. `Menu Staff`: Menu untuk melakukan create, delete, update dan read data dari staff yang bekerja pada rental mobil.
-
-6. `Menu Mobil`: Menu untuk melakukan create, delete, update dan read data mobil yang disewakan pada rental mobil ini.
-
-7. `Menu Transaksi`: Menu untuk melakukan create data transaksi yang dilakukan oleh peminjam. Data yang telah masuk ke data transaksi tidak bisa di update maupun delete.
-
-8. `Add Peminjam`:Menu untuk CRUD data peminjam sekaligus menu untuk menambahkan data transaksi.
-
-9. `Menu Staff`: Berikut merupakan tampilan awal dari menu staff, pada menu staff tidak tersedia menu “Staff” sehingga staff tidak bisa melakukan CRUD data sesama staff.
-   
-# MANAJEMEN RENTAL MOBIL
-Merupakan aplikasi yang bertujuan untuk pengelolaan bisnis rental mobil yang bertujuan meningkankan efektifitas staff maupun owner dalam melakukan pekerjaan dalam bisnis ini.
-
 ## Daftar Isi
-- [Sourcecode](#sourcecode)
 - [Penjelasan](#penjelasan)
 - [Penggunaan](#penggunaan)
 - 
 
+## Deskripsi Project
+Aplikasi Pengelolaan Data Rental Mobil ini adalah sebuah aplikasi yang bertujuan untuk membantu perusahaan rental mobil dalam mengelola dan melacak data terkait pelanggan, staf, pemilik, kendaraan, peminjaman, dan transaksi. Aplikasi ini memiliki tiga package utama, yaitu `image`, `database`, dan `menu.rental`.
+
+## Flowchart
+
+
+## ERD Logical
+![Screenshot 2023-11-02 095116](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/dcb1757e-0b1d-4307-9a4a-a540d39f6203)
+
+## ERD Relational
+![Screenshot 2023-11-02 095053](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/afd02eed-ee31-4a9a-a5d4-90852325d02c)
+
+## Struktur Project
+![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/edb138df-9524-4127-856c-2087166acc9f)
+
+- Package `image` berisi gambar dan icon yang digunakan di aplikasi ini.
+
+- Package `koneksi.program` adalah inti dari aplikasi ini, yang berisi 7 kelas utama untuk mengelola data dalam basis data aplikasi. Berikut adalah penjelasan singkat tentang masing-masing kelas:
+
+   a. `Database`: Kelas ini bertanggung jawab untuk mengelola koneksi ke database dan operasi dasar seperti mengambil data.
+
+   b. `User`: Kelas ini mengelola data pengguna aplikasi, termasuk informasi login dan hak akses.
+
+   c. `Staff`: Kelas ini berfungsi untuk menyimpan dan mengelola informasi staf yang bekerja di perusahaan rental mobil.
+
+   d. `Owner`: Kelas ini digunakan untuk menyimpan data pemilik perusahaan rental mobil.
+
+   e. `Mobil`: Kelas ini mengatur informasi kendaraan yang tersedia untuk disewakan, termasuk merek, model, tahun, dan harga.
+
+   f. `Peminjam`: Kelas ini mengelola data peminjam, seperti nama, alamat, dan kontak.
+
+   g. `Transaksi`: Kelas ini digunakan untuk mencatat detail transaksi peminjaman mobil, termasuk tanggal peminjaman, tanggal pengembalian, total, dan status peminjaman.
+
+- Package `menu.rental` berisi berbagai kelas yang mengatur interaksi antara pengguna dan aplikasi. Beberapa kelas penting di dalamnya adalah:
+
+   a. `Login`: Kelas ini bertanggung jawab untuk proses otentikasi pengguna, mengelola login, dan mengarahkan pengguna ke menu yang sesuai role setelah login berhasil.
+
+   b. `Menu Owner`: Kelas ini digunakan oleh pemilik perusahaan rental mobil untuk mengakses dan mengelola data staf, mobil, dan transaksi.
+
+   c. `Menu Staff`: Kelas ini digunakan oleh staf perusahaan rental mobil untuk mengakses dan mengelola data transaksi, pelanggan, dan kendaraan.
+
+## Hierarki Kelas
+![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/31e4eb03-44db-494d-8f72-c0fc4dd2af8d)
+
+## Output & Alur Program
+- Halaman Utama Owner
+1. `Login`: User diminta login terlebih dahulu sesuai dengan username, password dan role owner.
+
+![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/1d89d214-86d7-4b36-bf94-3ae70fa002e4)
+
+2. `Halaman Utama Owner`: Setelah login, menu utama akan muncul sesuai dengan jabatan user. Pada menu utama owner, ada 6 menu yang dapat dipilih yaitu Staff, Mobil, Add peminjam, Data Peminjam, Data Peminjaman dan Logout
+
+![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/93bfc539-38d0-4d48-b67b-c7ca638382c1)
+
+3.  `Menu Staff`: Menu untuk melakukan create, delete, update dan read data dari staff yang bekerja pada rental mobil.
+![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/46dc46d7-b31b-4d01-a229-2f5ec8cca207)
+
+4.  `Menu Mobil`: Menu untuk melakukan create, delete, update dan read data mobil yang disewakan pada rental mobil ini.
+![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/ea071880-1334-4985-be37-ad6299c289d1)
+
+5.  `Menu Add Peminjam`: Menu untuk CRUD data peminjam sekaligus menu untuk menambahkan data transaksi. Pada menu ini user diminta untuk menginput data peminjam, apabila data peminjam sudah ada maka user dapat memilih data peminjam yang sudah ada yang ditampilkan di tabel. Jika belum maka user akan diminta untuk memasukkan data peminjam yang baru.
+![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/7b1cce3b-e737-4c75-8d75-0b3bc5b677f0)
+
+6.  `Menu Transaksi`: Menu untuk melakukan create data transaksi yang dilakukan oleh peminjam. Data yang telah masuk ke data transaksi tidak bisa di update maupun delete.
+![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/40555b98-4533-419b-90ec-78956d980939)
+
+7.  `Menu Transaksi`: Apabila mobil tidak tersedia maka akan memunculkan output bahwa mobil tersebut sedang digunakan, sehingga tidak dapat dipinjam.
+![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/1e06133e-ccbf-4a3b-9eb0-13ba88aa5e81)
+
+8.  `Menu Transaksi`: Apabila mobil tersedia maka akan memunculkan output data transaksi berhasil disimpan, dan data peminjam serta transaksi tersebut masuk ke dalam database.
+![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/c834fcf4-270b-4d55-99be-4b5daf0b286d)
+
+9.  `Menu Data Peminjam`: Menu untuk menampilkan data peminjam yang telah meminjam di rental mobil ini. Di menu ini terdapat search untuk mencari data peminjam agar mudah menemukan data peminjam yang ingin dicari.
+![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/4e8397d2-7864-4660-aea6-22c4eab5b517)
+ 
+10.  `Menu Data Peminjaman`: Menu untuk menampilkan data peminjaman yang telah melakukan peminjaman di rental mobil ini. Di menu ini terdapat search untuk mencari data transaksi agar mudah menemukan data transaksi yang ingin dicari.
+![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/449b17fd-97b2-48e3-bf32-a369cb8280eb)
+
+11. `Logout`: Menu ini adalah menu untuk user jika ingin keluar dari program. Jika user memilih yes maka user akan keluar dari program.
+![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/f76b8eeb-cdd7-401b-a1af-cf04be91c8ae)
+
+
+- Halaman Utama Staff   
+1.  `Login`: User diminta login terlebih dahulu sesuai dengan username, password dan role staff.
+![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/ccdbad83-8609-4892-ae5c-3927c22abcbd)
+
+2.  `Halaman Utama Staff`: Berikut merupakan tampilan awal dari menu staff, pada menu staff tidak tersedia menu “Staff” sehingga staff tidak bisa melakukan CRUD data sesama staff. Di Menu ini hanya terdapat menu mobil, add peminjam, show data peminjam, dan show data peminjaman sama seperti di owner.
+![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/3017ad39-c64a-4089-b0d1-3eb53c398f2e)
+
+
 ## Sourcecode
 ## Penjelasan
 ## Cara pengunaan
-
-
-```bash
-git clone https://github.com/username/nama-proyek.git
-cd nama-proyek
-# Langkah-langkah instalasi tambahan
