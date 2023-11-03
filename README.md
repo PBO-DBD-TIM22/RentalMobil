@@ -33,19 +33,20 @@ NURUL VITA AZIZAH (2209116038)
 Aplikasi Pengelolaan Data Rental Mobil ini adalah sebuah aplikasi yang bertujuan untuk membantu perusahaan rental mobil dalam mengelola dan melacak data terkait pelanggan, staf, pemilik, kendaraan, peminjaman, dan transaksi. Aplikasi ini memiliki tiga package utama, yaitu `image`, `database`, dan `menu.rental`.
 
 ## Flowchart
-![flowchart pa pbo](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/cd45e087-673e-4054-87ca-8fef8cbef9dc)
+![flowchart pa pbo](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/764af679-e165-4821-a2d6-a206198acd96)
+
 
 
 ## ERD Logical
 ERD (Entity-Relationship Diagram), atau dalam bahasa Indonesia dikenal sebagai Diagram Entitas-Hubungan, adalah sebuah model data yang digunakan untuk menggambarkan entitas (objek atau konsep) dan hubungan antara entitas tersebut dalam sebuah sistem informasi atau basis data. ERD digunakan untuk merancang, menggambarkan, dan memvisualisasikan struktur data yang akan digunakan dalam suatu sistem atau aplikasi.
-![Screenshot 2023-11-02 095116](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/dcb1757e-0b1d-4307-9a4a-a540d39f6203)
+![Screenshot 2023-11-02 095116](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/d60d0063-c405-46d4-b206-8472166e5a81)
 
 ## ERD Relational
 ERD Relasional (Relational Entity-Relationship Diagram) adalah sebuah perangkat yang digunakan dalam desain basis data relasional untuk menggambarkan entitas, atribut, dan hubungan antara entitas dalam konteks sistem yang berbasis pada model relasional. Basis data relasional menggunakan tabel (relations) untuk menyimpan data, dan ERD relasional membantu dalam merancang struktur tabel dan menjelaskan hubungan antara tabel-tabel tersebut.
-![Screenshot 2023-11-02 095053](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/afd02eed-ee31-4a9a-a5d4-90852325d02c)
+![Screenshot 2023-11-02 095053](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/60885eda-9305-4de0-a0cc-f8654ca9ace8)
 
 ## Struktur Project
-![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/edb138df-9524-4127-856c-2087166acc9f)
+![Screenshot 2023-11-03 221822](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/0ff0b6af-0999-4122-b085-e764024ee02c)
 
 - Package `image` berisi gambar dan icon yang digunakan di aplikasi ini.
 
@@ -74,7 +75,7 @@ ERD Relasional (Relational Entity-Relationship Diagram) adalah sebuah perangkat 
    c. `Menu Staff`: Kelas ini digunakan oleh staf perusahaan rental mobil untuk mengakses dan mengelola data transaksi, pelanggan, dan kendaraan.
 
 ## Hierarki Kelas
-![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/31e4eb03-44db-494d-8f72-c0fc4dd2af8d)
+![Screenshot 2023-11-03 220719](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/60134ec3-5092-4f29-aeed-87dfe02f01c5)
 
 ## Penjelasan Codingan
 ### LOGIN
@@ -165,75 +166,87 @@ Untuk menggunakan aplikasi ini, Anda dapat membuat objek dari kelas `Mobil` dan 
 - Halaman Utama Owner
 1. `Login`: User diminta login terlebih dahulu sesuai dengan username, password dan role owner.
 
-![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/1d89d214-86d7-4b36-bf94-3ae70fa002e4)
+![Screenshot 2023-11-03 213434](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/2963a736-d300-4138-b529-0622ea450946)
 
 2. `Halaman Utama Owner`: Setelah login, menu utama akan muncul sesuai dengan jabatan user. Pada menu utama owner, ada 6 menu yang dapat dipilih yaitu Staff, Mobil, Add peminjam, Data Peminjam, Data Peminjaman dan Logout
 
-![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/93bfc539-38d0-4d48-b67b-c7ca638382c1)
+![Screenshot 2023-11-03 213856](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/baf83e1b-b6f9-4268-88c1-c1b7c23b84cf)
 
 3.  `Menu Staff`: Menu untuk melakukan create, delete, update dan read data dari staff yang bekerja pada rental mobil.
 
-![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/46dc46d7-b31b-4d01-a229-2f5ec8cca207)
+![Screenshot 2023-11-03 223449](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/fde196a1-7826-4fa6-979b-e4ee7c8e892e)
 
 4.  `Menu Mobil`: Menu untuk melakukan create, delete, update dan read data mobil yang disewakan pada rental mobil ini.
 
-![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/ea071880-1334-4985-be37-ad6299c289d1)
+![Screenshot 2023-11-03 223754](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/872aed8d-9d64-4359-b8f4-2ac713017274)
 
   a. Output apabila id mobil tidak sesuai inputan
-  ![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/42e9e6f8-aab3-4562-ad1b-19947489909b)
+![Screenshot 2023-11-04 031128](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/8f404351-bbe6-4953-b707-911b9b0c66b4)
+
   b. Output apabila id mobil diinput sesuai inputan 
-  ![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/9ba0644b-d850-4571-b660-c2d56b7a0768)
+![Screenshot 2023-11-04 031431](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/d2f9e779-21be-4813-b2ca-21874e4df51a)
+
   c. Output Update Mobil
-  ![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/a6345b45-5d35-4aa2-8769-6a2e0bd78685)
+![Screenshot 2023-11-04 031601](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/20ddc72f-3d43-4328-b8ec-6cfe0cc7301c)
+
   d. Output Delete Mobil
-  ![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/6af908ee-20ec-4a10-b515-cb15be007a58)
+![Screenshot 2023-11-04 031636](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/e91f30ac-158f-4f12-8538-e9de4d3311d3)
 
 
 5.  `Menu Add Peminjam`: Menu untuk CRUD data peminjam sekaligus menu untuk menambahkan data transaksi. Pada menu ini user diminta untuk menginput data peminjam, apabila data peminjam sudah ada maka user dapat memilih data peminjam yang sudah ada yang ditampilkan di tabel. Jika belum maka user akan diminta untuk memasukkan data peminjam yang baru.
 
-![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/7b1cce3b-e737-4c75-8d75-0b3bc5b677f0)
+![Screenshot 2023-11-03 230402](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/4ee4c780-b2c0-481c-b8cf-1e15169d2f81)
+
 
 6.  `Menu Transaksi`: Menu untuk melakukan create data transaksi yang dilakukan oleh peminjam. Data yang telah masuk ke data transaksi tidak bisa di update maupun delete.
 
-![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/40555b98-4533-419b-90ec-78956d980939)
+![Screenshot 2023-11-03 224750](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/5ead05c3-2b3f-4289-90a1-b0ca1aed6d34)
+
 
 7.  `Menu Transaksi`: Apabila mobil tidak tersedia maka akan memunculkan output bahwa mobil tersebut sedang digunakan, sehingga tidak dapat dipinjam.
 
-![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/1e06133e-ccbf-4a3b-9eb0-13ba88aa5e81)
+![Screenshot 2023-11-03 225328](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/fd8a92e9-704c-4d44-ae9c-979576aa3296)
+
 
 8.  `Menu Transaksi`: Apabila mobil tersedia maka akan memunculkan output data transaksi berhasil disimpan, dan data peminjam serta transaksi tersebut masuk ke dalam database.
 
-![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/c834fcf4-270b-4d55-99be-4b5daf0b286d)
+![Screenshot 2023-11-03 225943](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/329e2254-6c46-4df1-bba7-2a1a309285ac)
+
 
   a. Output jika tanggal pengembalian kurang dari tanggal peminjaman
-  ![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/2f675389-7466-4cb7-96ca-f1be367a40a5)
+![Screenshot 2023-11-04 031951](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/de96a898-c625-4a4d-95d8-3675b7877810)
+
   b. Output jika tanggal pengembalian diinputkan sesuai dan data berhasil ditambahkan
-  ![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/e643103f-8edf-4168-a88a-a33067187406)
+![Screenshot 2023-11-04 032230](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/57257394-9cbf-4c5d-963f-1fc3075a0b09)
+
 
 
 9.  `Menu Data Peminjam`: Menu untuk menampilkan data peminjam yang telah meminjam di rental mobil ini. Di menu ini terdapat search untuk mencari data peminjam agar mudah menemukan data peminjam yang ingin dicari.
 
-![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/4e8397d2-7864-4660-aea6-22c4eab5b517)
+![Screenshot 2023-11-03 224447](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/29d93534-0436-4fef-ab7c-7b74ff59da95)
+
  
 10.  `Menu Data Peminjaman`: Menu untuk menampilkan data peminjaman yang telah melakukan peminjaman di rental mobil ini. Di menu ini terdapat search untuk mencari data transaksi agar mudah menemukan data transaksi yang ingin dicari.
 
-![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/449b17fd-97b2-48e3-bf32-a369cb8280eb)
+![Screenshot 2023-11-03 231438](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/034c7ddb-bb34-4f21-9288-dd36ad4cf62a)
+
 
 Output Pencarian Transaksi :
 
-![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/257fc72a-b6c0-4f5b-bd42-f5f217e48427)
+![Screenshot 2023-11-04 032324](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/40752ee7-0bae-4593-969e-3f79bc975b6f)
 
 
 11. `Logout`: Menu ini adalah menu untuk user jika ingin keluar dari program. Jika user memilih yes maka user akan keluar dari program.
 
-![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/f76b8eeb-cdd7-401b-a1af-cf04be91c8ae)
+![Screenshot 2023-11-03 232457](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/87a4998e-55e0-4cf0-a09f-5c2bb699e048)
 
 
 - Halaman Utama Staff   
 1.  `Login`: User diminta login terlebih dahulu sesuai dengan username, password dan role staff.
 
-![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/ccdbad83-8609-4892-ae5c-3927c22abcbd)
+![Screenshot 2023-11-03 232041](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/c1b34b04-46cb-4280-af7a-59d31f907149)
 
 2.  `Halaman Utama Staff`: Berikut merupakan tampilan awal dari menu staff, pada menu staff tidak tersedia menu “Staff” sehingga staff tidak bisa melakukan CRUD data sesama staff. Di Menu ini hanya terdapat menu mobil, add peminjam, show data peminjam, dan show data peminjaman sama seperti di owner.
 
-![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/3017ad39-c64a-4089-b0d1-3eb53c398f2e)
+![Screenshot 2023-11-03 232102](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/47bffde3-5dac-4b20-8951-8eccbd85693e)
+
