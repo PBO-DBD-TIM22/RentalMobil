@@ -17,9 +17,11 @@ Aplikasi Pengelolaan Data Rental Mobil ini adalah sebuah aplikasi yang bertujuan
 
 
 ## ERD Logical
+ERD (Entity-Relationship Diagram), atau dalam bahasa Indonesia dikenal sebagai Diagram Entitas-Hubungan, adalah sebuah model data yang digunakan untuk menggambarkan entitas (objek atau konsep) dan hubungan antara entitas tersebut dalam sebuah sistem informasi atau basis data. ERD digunakan untuk merancang, menggambarkan, dan memvisualisasikan struktur data yang akan digunakan dalam suatu sistem atau aplikasi.
 ![Screenshot 2023-11-02 095116](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/dcb1757e-0b1d-4307-9a4a-a540d39f6203)
 
 ## ERD Relational
+ERD Relasional (Relational Entity-Relationship Diagram) adalah sebuah perangkat yang digunakan dalam desain basis data relasional untuk menggambarkan entitas, atribut, dan hubungan antara entitas dalam konteks sistem yang berbasis pada model relasional. Basis data relasional menggunakan tabel (relations) untuk menyimpan data, dan ERD relasional membantu dalam merancang struktur tabel dan menjelaskan hubungan antara tabel-tabel tersebut.
 ![Screenshot 2023-11-02 095053](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/afd02eed-ee31-4a9a-a5d4-90852325d02c)
 
 ## Struktur Project
