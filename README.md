@@ -6,7 +6,6 @@ NURUL VITA AZIZAH (2209116038)
 
 ## Daftar Isi
 - [Penjelasan](#penjelasan)
-- [Penggunaan](#penggunaan)
 - [Deskripsi Project](#deskripsi-project)
 - [Flowchart](#flowchart)
 - [ERD Logical](#erd-logical)
@@ -76,6 +75,8 @@ ERD Relasional (Relational Entity-Relationship Diagram) adalah sebuah perangkat 
 ## Hierarki Kelas
 ![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/31e4eb03-44db-494d-8f72-c0fc4dd2af8d)
 
+## Penjelasan Codingan
+
 ## Output & Alur Program
 - Halaman Utama Owner
 1. `Login`: User diminta login terlebih dahulu sesuai dengan username, password dan role owner.
@@ -120,8 +121,3 @@ ERD Relasional (Relational Entity-Relationship Diagram) adalah sebuah perangkat 
 
 2.  `Halaman Utama Staff`: Berikut merupakan tampilan awal dari menu staff, pada menu staff tidak tersedia menu “Staff” sehingga staff tidak bisa melakukan CRUD data sesama staff. Di Menu ini hanya terdapat menu mobil, add peminjam, show data peminjam, dan show data peminjaman sama seperti di owner.
 ![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/3017ad39-c64a-4089-b0d1-3eb53c398f2e)
-
-
-## Sourcecode
-## Penjelasan
-## Cara pengunaan
