@@ -1,6 +1,7 @@
 # Aplikasi Pengelolaan Data Rental Mobil
 ### TIM 22
 KAYLA VIRRLY .N (22091160)
+
 NURUL VITA AZIZAH (2209116038)
 
 ## Deskripsi Project
@@ -44,19 +45,22 @@ Package `menu.rental` berisi berbagai kelas yang mengatur interaksi antara pengg
 
 1. `Login`: User diminta login terlebih dahulu sesuai dengan username, password dan role dari masing-masing akun jabatan.
 
-2. `Menu Tampilan Utama`: Setelah login, menu utama akan muncul sesuai dengan jabatan masing user.
+   ![image](https://github.com/PBO-DBD-TIM22/RentalMobil/assets/121857360/df924097-33a2-47d2-8c47-02134df463f3)
 
-3. `Menu Utama Owner`: Pada menu utama owner, ada 4 menu yang dapat dipilih yaitu Staff, Mobil, Add peminjam
 
-4. `Menu Staff`: Menu untuk melakukan create, delete, update dan read data dari staff yang bekerja pada rental mobil.
+3. `Menu Tampilan Utama`: Setelah login, menu utama akan muncul sesuai dengan jabatan masing user.
 
-5. `Menu Mobil`: Menu untuk melakukan create, delete, update dan read data mobil yang disewakan pada rental mobil ini.
+4. `Menu Utama Owner`: Pada menu utama owner, ada 4 menu yang dapat dipilih yaitu Staff, Mobil, Add peminjam
 
-6. `Menu Transaksi`: Menu untuk melakukan create data transaksi yang dilakukan oleh peminjam. Data yang telah masuk ke data transaksi tidak bisa di update maupun delete.
+5. `Menu Staff`: Menu untuk melakukan create, delete, update dan read data dari staff yang bekerja pada rental mobil.
 
-7. `Add Peminjam`:Menu untuk CRUD data peminjam sekaligus menu untuk menambahkan data transaksi.
+6. `Menu Mobil`: Menu untuk melakukan create, delete, update dan read data mobil yang disewakan pada rental mobil ini.
 
-8. `Menu Staff`: Berikut merupakan tampilan awal dari menu staff, pada menu staff tidak tersedia menu “Staff” sehingga staff tidak bisa melakukan CRUD data sesama staff.
+7. `Menu Transaksi`: Menu untuk melakukan create data transaksi yang dilakukan oleh peminjam. Data yang telah masuk ke data transaksi tidak bisa di update maupun delete.
+
+8. `Add Peminjam`:Menu untuk CRUD data peminjam sekaligus menu untuk menambahkan data transaksi.
+
+9. `Menu Staff`: Berikut merupakan tampilan awal dari menu staff, pada menu staff tidak tersedia menu “Staff” sehingga staff tidak bisa melakukan CRUD data sesama staff.
    
 # MANAJEMEN RENTAL MOBIL
 Merupakan aplikasi yang bertujuan untuk pengelolaan bisnis rental mobil yang bertujuan meningkankan efektifitas staff maupun owner dalam melakukan pekerjaan dalam bisnis ini.
